@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Calculator implements CalculatorImpl {
+public class Calculator implements Calculatorable {
 
 	private ArrayList<Double> list = new ArrayList<>();
 	private static final String REGEX1 = "[*/+-]";

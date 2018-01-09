@@ -1,5 +1,5 @@
 
-public interface CalculatorImpl {
+public interface Calculatorable {
 
 	public double plus(double a,double b);
 	public double minus(double a,double b);
